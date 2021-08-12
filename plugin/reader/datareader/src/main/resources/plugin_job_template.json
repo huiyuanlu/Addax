@@ -1,0 +1,7 @@
+{
+  "name": "datareader",
+  "parameter": {
+    "sliceRecordCount": "",
+    "column": []
+  }
+}
