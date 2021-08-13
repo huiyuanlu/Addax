@@ -38,8 +38,4 @@ public class CompanyUtil
         return CommonUtil.randChoose(COMPANY_PREFIXES) + CommonUtil.randChoose(COMPANY_TYPES) + "有限公司";
     }
 
-    public static void main(String[] args)
-    {
-        System.out.println(CompanyUtil.nextCompany());
-    }
 }

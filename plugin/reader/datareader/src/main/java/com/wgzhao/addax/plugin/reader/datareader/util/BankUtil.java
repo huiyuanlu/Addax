@@ -91,11 +91,4 @@ public class BankUtil
         sb.append(RandomStringUtils.randomNumeric(CREDIT_CARD_LENGTH - sb.length()));
         return sb.toString();
     }
-
-    public static void main(String[] args)
-    {
-        System.out.println(BankUtil.nextDebitCard());
-        System.out.println(BankUtil.nextCreditCard());
-        System.out.println(BankUtil.nextBank());
-    }
 }

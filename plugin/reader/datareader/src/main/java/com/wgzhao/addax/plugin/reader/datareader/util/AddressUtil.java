@@ -108,10 +108,4 @@ public class AddressUtil
     {
         return CommonUtil.randChoose(COUNTRIES);
     }
-
-    public static void main(String[] args)
-    {
-        System.out.println(AddressUtil.nextAddress());
-        System.out.println(AddressUtil.nextCountry());
-    }
 }

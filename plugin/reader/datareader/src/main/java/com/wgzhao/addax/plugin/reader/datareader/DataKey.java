@@ -19,22 +19,15 @@
 
 package com.wgzhao.addax.plugin.reader.datareader;
 
-import com.wgzhao.addax.common.base.Constant;
+import com.wgzhao.addax.common.base.Key;
 
-public final class DataConstant extends Constant
+public final class DataKey
+        extends Key
 {
-
-
-    public static final String RANDOM = "random";
-
-    // 递增字段
-    public static final String INCR = "incr";
-
-
     public static final String MIXUP_FUNCTION_PARAM1 = "mixupParam1";
     public static final String MIXUP_FUNCTION_PARAM2 = "mixupParam2";
     public static final String MIXUP_FUNCTION_SCALE = "scale";
-    public static final String HAVE_INCR_FUNCTION = "hasIncrFunction";
+    public static final String RULE = "rule";
 
-    private DataConstant() {}
+    private DataKey() {}
 }

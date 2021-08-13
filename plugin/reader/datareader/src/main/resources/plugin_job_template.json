@@ -2,6 +2,25 @@
   "name": "datareader",
   "parameter": {
     "sliceRecordCount": "",
-    "column": []
+    "column": [
+      {
+        "value": "1,100",
+        "rule": "random",
+        "type": "long"
+      },
+      {
+        "rule": "address",
+        "type": "string"
+      },
+      {
+        "value": "1,2",
+        "rule": "incr",
+        "type": "long"
+      },
+      {
+        "value": "constant string",
+        "type": "string"
+      }
+    ]
   }
 }

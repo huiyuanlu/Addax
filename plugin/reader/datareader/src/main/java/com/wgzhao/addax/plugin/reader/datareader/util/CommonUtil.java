@@ -71,4 +71,9 @@ public class CommonUtil
     {
         return container[RANDOM.nextInt(container.length)];
     }
+
+    public static String[] randChoose(String[][] container)
+    {
+        return container[RANDOM.nextInt(container.length)];
+    }
 }
